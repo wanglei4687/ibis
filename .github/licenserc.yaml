@@ -1,0 +1,14 @@
+header:
+  license: 
+    spdx-id: Apache-2.0
+    copyrigiht-owner: Wang Lei
+  paths-ignore:
+     - 'docs/'
+     - '.gitignore'
+     - '.gitatrributes'
+     - '**/*.md'
+     - 'Cargo.toml'
+     - 'Cargo.lock'
+     - '.github/'
+     - 'LICENSE'
+  comment: on-failure
