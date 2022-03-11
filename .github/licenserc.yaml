@@ -11,4 +11,5 @@ header:
      - 'Cargo.lock'
      - '.github/'
      - 'LICENSE'
+     - '.codeov.yaml'
   comment: on-failure
