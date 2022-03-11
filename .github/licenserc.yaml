@@ -10,5 +10,5 @@ header:
      - 'Cargo.toml'
      - 'Cargo.lock'
      - '.github/'
-     - ' LICENSE'
+     - 'LICENSE'
   comment: on-failure
