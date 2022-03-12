@@ -12,5 +12,5 @@ header:
      - '.github/'
      - 'LICENSE'
      - '.codecov.yml'
-     - '.travis.yml'
+     - '.circleci/'
   comment: on-failure
