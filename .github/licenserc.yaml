@@ -12,4 +12,5 @@ header:
      - '.github/'
      - 'LICENSE'
      - '.codecov.yaml'
+     - '.travis.yaml'
   comment: on-failure
