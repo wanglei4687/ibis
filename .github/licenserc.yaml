@@ -11,6 +11,6 @@ header:
      - 'Cargo.lock'
      - '.github/'
      - 'LICENSE'
-     - '.codecov.yaml'
-     - '.travis.yaml'
+     - '.codecov.yml'
+     - '.travis.yml'
   comment: on-failure
