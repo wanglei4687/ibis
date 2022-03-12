@@ -3,9 +3,6 @@
 [![LICENSE](https://img.shields.io/github/license/wanglei4687/ibis)](LICENSE)
 [![ISSUE](https://img.shields.io/github/issues/wanglei4687/ibis)](ISSUE)
 
-
-## Cloud Native Storage
-
 ## Architecture
 
 ## Roadmap
