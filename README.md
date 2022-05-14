@@ -5,6 +5,14 @@
 
 ## Architecture
 
+## Concepts
+
+- Virtual Components
+
+- OS level of abstraction
+
+- Maximum programmability for user
+
 ## Roadmap
 
 ## License
