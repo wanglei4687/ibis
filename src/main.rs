@@ -13,7 +13,7 @@
 use std::env;
 
 fn main() {
-    let dsn = env::var("dsn").is_err();
+    let dsn = env::var("IBIS_DSN").is_err();
     let _guard = sentry::init((
         dsn,
         sentry::ClientOptions {
