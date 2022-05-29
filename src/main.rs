@@ -11,5 +11,14 @@
 // limitations under the License.
 
 fn main() {
-    println!("Hello, world!");
+    let _guard = sentry::init((
+        "https://d4dfecc4397044af88e65dd7ea46129b@o1034490.ingest.sentry.io/6453069",
+        sentry::ClientOptions {
+            release: sentry::release_name!(),
+            ..Default::default()
+        },
+    ));
+
+    // Sentry will capture this
+    panic!("Everything is on fire!");
 }
