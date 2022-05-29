@@ -10,9 +10,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+use std::env;
+
 fn main() {
+    let dsn = env::var("dsn").is_err();
     let _guard = sentry::init((
-        "https://d4dfecc4397044af88e65dd7ea46129b@o1034490.ingest.sentry.io/6453069",
+        dsn,
         sentry::ClientOptions {
             release: sentry::release_name!(),
             ..Default::default()
